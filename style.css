@@ -1,10 +1,128 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 /* body{} */
 /* html */
-.box{
-    background-color: orange;
+.container {
+  max-width: 1440px;
+  margin: auto;
+}
+.section-header {
+  background-color: rgb(3, 3, 79);
+  padding: 40px 80px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding-bottom: 150px;
+  position: relative;
+}
+.section-navbar {
+  display: flex;
+  justify-content: space-between;
+}
+.right-nav a {
+  text-decoration: none;
+  color: white;
+  border-bottom: solid aqua;
+}
+.matter {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  color: white;
+  max-width: 30%;
+  margin: auto;
+  text-align: center;
+}
+.matter h1 {
+  font-size: 50px;
+}
+.matter span {
+  border-bottom: solid aqua;
+}
+.matter a {
+  text-decoration: none;
+  background-color: greenyellow;
+  padding: 10px;
+  display: flex;
+  align-self: center;
+  color: blue;
+}
+.image-hero {
+  position: absolute;
+  width: 400px;
+  bottom: -100px;
+  right: 50%;
+  transform: translate(50%);
+}
+.aside-section {
+  margin: 100px 0px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.col {
+  width: 22%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+.col a {
+  text-decoration: none;
+  padding: 10px 15px;
+  border: solid #24053E 1px;
+  border-radius: 50%;
+}
+.col h2{
+    color: #24053E;
+}
+.col p{
+    color: #584D62;
+    font-size: 18px;
+    text-align: center;
+}
+.hero-section{
+    display: flex;
+    /* justify-content: center; */
+    padding-left: 150px;
+    position: relative;
+}
+.hero img{
+    width: 400px;
+}
+.description{
+    width: 550px;
+    background-color: blue;
+    height: fit-content;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: white;
+    position: absolute;
+    bottom: 0px;
+    left:35%;
+
+}
+.description a{
+    text-decoration: none;
+    padding: 10px;
+    border: solid  1px;
+    width: fit-content;
+    background-color: aqua;
+}
+.section-footer{
+    width: fit-content;
+    margin: auto;
+    padding: 40px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.links{
+    display: flex;
+    gap: 20px;
+
 }
